@@ -1,0 +1,5 @@
+server {
+    listen       ${NGINX_PORT};
+    server_name  ${NGINX_HOST};
+    root         ${DKT_HOME};
+}
